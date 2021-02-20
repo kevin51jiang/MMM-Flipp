@@ -1,0 +1,14 @@
+.groc {
+  max-width: 80% !important;
+  font-size: 1rem;
+  table-layout: fixed;
+}
+
+.groc td:not(:last-child) {
+  padding-right: 1em;
+}
+
+.groc td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
