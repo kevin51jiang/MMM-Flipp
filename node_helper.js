@@ -16,8 +16,6 @@ const getFlippItems = async (searchTerm, postalCode) => {
 };
 
 module.exports = NodeHelper.create({
-  start: () => {},
-
   socketNotificationReceived: function (notif, payload) {
     var self = this;
     console.log(
